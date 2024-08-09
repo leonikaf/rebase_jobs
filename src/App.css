@@ -1,0 +1,100 @@
+/* Основные стили таблицы */
+table {
+  width: 60%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  border: 3px solid black;
+}
+
+/* Стили для заголовков таблицы */
+th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+  padding: 8px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+/* Стили для ячеек таблицы */
+td {
+  padding: 8px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+/* Жирный шрифт для названий монет и значений */
+td:first-child, td:last-child, td.bold-text {
+  font-weight: bold;
+}
+
+/* Размеры и отступы для колонок */
+th:first-child, td:first-child {
+  width: 20%;
+}
+
+th:nth-child(2), td:nth-child(2) {
+  width: 15%;
+}
+
+th:nth-child(3), td:nth-child(3) {
+  width: 20%;
+}
+
+th:last-child, td:last-child {
+  width: 25%;
+}
+
+/* Пастельные градиенты */
+tr:nth-child(1) { background-color: #88FF88; }
+tr:nth-child(2) { background-color: #AAFF88; }
+tr:nth-child(3) { background-color: #CCFF88; }
+tr:nth-child(4) { background-color: #EEFF88; }
+tr:nth-child(5) { background-color: #FFFF88; }
+tr:nth-child(6) { background-color: #FFEE88; }
+tr:nth-child(7) { background-color: #FFDD88; }
+tr:nth-child(8) { background-color: #FFBB88; }
+tr:nth-child(9) { background-color: #FFAA88; }
+tr:nth-child(10) { background-color: #FF8888; }
+tr:nth-child(11) { background-color: #FF6666; }
+tr:nth-child(12) { background-color: #FF4444; }
+tr:nth-child(13) { background-color: #FF2222; }
+
+/* Стили для ссылок в колонке "Buy" */
+td a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+td a:hover {
+  text-decoration: underline;
+}
+
+/* Центрирование текста */
+.centered-text {
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Стили для нижнего текста */
+.footer-note {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+/* Дополнительные стили для отступов в нижнем тексте */
+.footer-note.delay-note {
+  margin-top: 20px;
+}
+
+/* Стили для новой строки */
+.calculation-note {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
